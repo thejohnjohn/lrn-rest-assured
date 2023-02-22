@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="547121db-410a-42f6-8175-95f216f48c5c" name="Changes" comment="" />
+    <list default="true" id="547121db-410a-42f6-8175-95f216f48c5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rest/EnviaDadosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rest/FileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rest/HTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rest/SchemaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rest/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rest/VerbosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rest/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rest/JsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rest/RestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rest/RestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rest/XMLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rest/XMLTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,9 +53,107 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/black/Desenvolvimento/Pessoal/LrnRest/src/main/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SchemaTest.naoDeveValidarSchemaXMLInvalido">
+    <configuration name="FileTest.deveBaixarArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lrn-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rest.FileTest" />
+      <option name="METHOD_NAME" value="deveBaixarArquivo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTest.deveFazerUploadDeArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lrn-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rest.FileTest" />
+      <option name="METHOD_NAME" value="deveFazerUploadDeArquivo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTest.naoDeveFazerUploadDeArquivoGrande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lrn-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rest.FileTest" />
+      <option name="METHOD_NAME" value="naoDeveFazerUploadDeArquivoGrande" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemaTest.deveValidarSchemaXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lrn-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rest.SchemaTest" />
+      <option name="METHOD_NAME" value="deveValidarSchemaXML" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemaTest.naoDeveValidarSchemaXMLInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lrn-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rest.SchemaTest" />
+      <option name="METHOD_NAME" value="naoDeveValidarSchemaXMLInvalido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SchemaTest.naoDeveValidarSchemaXMLInvalido" />
+        <item itemvalue="JUnit.SchemaTest.deveValidarSchemaXML" />
+        <item itemvalue="JUnit.FileTest.deveBaixarArquivo" />
+        <item itemvalue="JUnit.FileTest.naoDeveFazerUploadDeArquivoGrande" />
+        <item itemvalue="JUnit.FileTest.deveFazerUploadDeArquivo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,5 +164,16 @@
       <updated>1675866070227</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
