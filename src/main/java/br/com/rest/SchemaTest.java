@@ -1,6 +1,8 @@
 package br.com.rest;
 
 import io.restassured.matcher.RestAssuredMatchers;
+import io.restassured.module.jsv.JsonSchemaValidator;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.xml.sax.SAXParseException;
 
@@ -19,9 +21,10 @@ public class SchemaTest {
                 .body(RestAssuredMatchers.matchesXsdInClasspath("users.xsd"));
     }
 
-    @Test
+    @Test()
     public void naoDeveValidarSchemaXMLInvalido() {
-        given()
+        Assertions.assertThrows(SAXParseException.class, () -> {
+            given()
                 .log().all()
             .when()
                 .get("https://restapi.wcaquino.me/invalidUsersXML")
@@ -29,5 +32,18 @@ public class SchemaTest {
                 .log().all()
                 .statusCode(200)
                 .body(RestAssuredMatchers.matchesXsdInClasspath("users.xsd"));
+        });
+    }
+
+    @Test
+    public void deveValidarSchemaJSON() {
+        given()
+                .log().all()
+            .when()
+                .get("https://restapi.wcaquino.me/users")
+            .then()
+                .log().all()
+                .statusCode(200)
+                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("users.json"));
     }
 }
